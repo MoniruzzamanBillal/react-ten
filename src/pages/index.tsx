@@ -1,1 +1,2 @@
-// export { default as AboutUs } from "./AboutUs";
+export { default as AddTender } from "./AddTender";
+export { default as ManageTender } from "./ManageTender";

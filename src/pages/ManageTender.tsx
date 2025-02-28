@@ -6,9 +6,7 @@ const ManageTender = () => {
     <div className="ManageTenderContainer">
       <div className="manageTenderWrapper bg-gray-100 border border-gray-300  shadow rounded-md p-3 ">
         <Button
-          onClick={() =>
-            (window.location.href = "/dashboard/admin/manage-tender")
-          }
+          onClick={() => (window.location.href = "/dashboard/admin/add-tender")}
           className="mb-4 bg-prime100 hover:bg-prime100 cursor-pointer"
         >
           Add New Tender
@@ -21,7 +19,7 @@ const ManageTender = () => {
               <tr>
                 <th>Title </th>
                 <th>description</th>
-                <th>Budget Range</th>
+                <th>Budget </th>
 
                 <th>Deadline</th>
                 <th>Required Documents</th>
