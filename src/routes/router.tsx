@@ -1,5 +1,6 @@
 import App from "@/App";
 import DashboardLayout from "@/components/layout/DashboardLayout";
+import ManageTender from "@/pages/ManageTender";
 import { createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <h1>dashboard content</h1>,
+      },
+      {
+        path: "/dashboard/admin/manage-tender",
+        element: <ManageTender />,
       },
     ],
   },

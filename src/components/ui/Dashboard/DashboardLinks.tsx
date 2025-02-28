@@ -21,8 +21,8 @@ const DashboardLinks = () => {
       icon: <CiBookmark className="text-xl font-bold" />,
     },
     {
-      name: "Manage Orders",
-      path: "/dashboard/user/manage-order",
+      name: "Manage Tenders",
+      path: "/dashboard/admin/manage-tender",
       icon: <CiViewList className=" text-xl font-bold " />,
     },
   ];
